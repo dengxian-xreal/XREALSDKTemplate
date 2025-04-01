@@ -23,6 +23,7 @@ UWP/
 *.booproj
 *.svd
 *.pdb
+*.apk
 
 # Unity3D generated meta files
 *.pidb.meta
