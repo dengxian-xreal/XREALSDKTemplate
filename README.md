@@ -6,5 +6,5 @@ This project serves as a quick validation tool to help developers troubleshoot a
 Development Environment:
 
 * Unity: 2022.3.35f1 
-* [XREAL SDK: 3.0.0](https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.0.0)
+* [XREAL SDK 3.0.0](https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.0.0)
 * [ControlGlasses 1.1.0](https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.0.0)
