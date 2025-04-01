@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8902870347974054712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5088881649287307055}
+  - component: {fileID: 8075328446269377158}
+  m_Layer: 0
+  m_Name: XREALInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5088881649287307055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8902870347974054712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8075328446269377158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8902870347974054712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bc3ed309e75da4c9c361eb741d8969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mInputSourceType: 1
+  m_TriggerActionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Trigger Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e1c8e485-c6c4-4cc0-9b57-0089df589dd5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2952415135324566668, guid: 188091d269e60234386f93c9a74e511d, type: 3}
+  m_HomeActionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Home Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c5c2643e-8d76-45c4-a4d3-925737b9eb89
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 8920646456602342782, guid: 188091d269e60234386f93c9a74e511d, type: 3}
+  m_AppActionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: App Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 89b1c86e-a44e-43de-9d08-a0c31ef753b0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1912295771660903638, guid: 188091d269e60234386f93c9a74e511d, type: 3}
+  m_TouchActionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Touch Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c17f8469-04ac-4772-bad8-7a6a7ccce2a9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2989171831456221858, guid: 188091d269e60234386f93c9a74e511d, type: 3}
+  mHeadPoseDriver: {fileID: 0}

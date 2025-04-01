@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6c6fbaebc0a41448bdb2a644012ac7, type: 3}
+  m_Name: XREALSettings
+  m_EditorClassIdentifier: 
+  StereoRendering: 2
+  InitialTrackingType: 0
+  InitialInputSource: 1
+  VirtualController: {fileID: 0}
+  SupportMultiResume: 1
+  AddtionalPermissions: []
+  SupportDevices: 0100000002000000
+  LicenseAsset: {fileID: 0}
