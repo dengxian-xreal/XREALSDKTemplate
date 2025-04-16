@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
-    guid: 319dafa5c80f29f428dc1e0d03f04177
+    path: Assets/Samples/XREAL XR Plugin/3.0.0/AR Features/ImageTracking/BasicImageTracking.unity
+    guid: e0b018a3c3b5cfd4c8e316706ec0a18c
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7ff3cc84cfbc14b428241653eda48e36, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3c48157b70d3a46e8a108a6c8141f177, type: 2}
